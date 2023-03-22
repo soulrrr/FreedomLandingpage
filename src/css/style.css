@@ -55,6 +55,12 @@ body {
 	background: url('../img/icons/right_arrow.svg') right no-repeat;
 }
 
+.title {
+	font-size: 36px;
+	line-height: 111.111111%; /* 40/36 */
+	text-transform: uppercase;
+	font-weight: 700;
+}
 /* =================== */
 
 .header {
@@ -79,6 +85,8 @@ body {
 .page__main-block {
 }
 .page__benefits {
+}
+.page__trainning {
 }
 
 /* =================== */
@@ -167,15 +175,10 @@ body {
 }
 .benefits__container {
 	display: grid;
-	grid-template-columns: repeat(4,1fr);
+	grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
 	gap: 30px;
 }
-.benefits__title,
-.item-benefit__title {
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 111%;
+.benefits__title {
 }
 .benefits__item {
 }
@@ -202,4 +205,28 @@ body {
 	line-height: 125%;
 	font-weight: 700;
 	text-transform: uppercase;
+}
+
+/* =================== */
+
+.trainning {
+	padding-top: 120px;
+	padding-bottom: 120px;
+	background-color: #1F2327;
+}
+.trainning__container {
+	display: flex;
+	flex-direction: row-reverse;
+}
+.trainning__content {
+}
+.trainning__label {
+}
+.trainning__title {
+}
+.title {
+}
+.trainning__list {
+}
+.trainning__image {
 }
